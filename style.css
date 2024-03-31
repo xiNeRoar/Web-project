@@ -308,7 +308,7 @@ nav {
 .hp-aboutus-container {
   width: 100%;
   height: 30vmax;
-  background-image: url(https://img.freepik.com/free-photo/solid-concrete-wall-textured-backdrop_53876-129493.jpg?t=st=1711586762~exp=1711590362~hmac=8ddcb35dd2d06450445a32ab8e232ac5690f08e5851494e4c3c24bf8e4dc077f&w=1800);
+  background-image: url(/resources/aboutus-banner.jpg);
   overflow: hidden;
 }
 
