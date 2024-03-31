@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="" />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""></script>
+    <script src="/script.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Menu -->
+    <header>
+      <nav>
+        <!-- Left menu -->
+        <ul class="left-menu">
+          <li><a href="category.html">Men</a></li>
+          <li><a href="category.html">Women</a></li>
+          <li><a href="/category.html">Kid</a></li>
+          <li tabindex="0">
+            Collections
+            <div class="subcategory-menu">
+              <ul>
+                <img
+                  src="/resources/drop-down-img.jpg"
+                  width="300"
+                  height="300"
+                  alt="drop-down-img" />
+              </ul>
+              <ul>
+                <li><a href="category.html">FEATURED</a></li>
+                <li><a href="category.html">Spring Collection</a></li>
+                <li><a href="category.html">New Arrivals</a></li>
+                <li><a href="category.html">On Sale</a></li>
+              </ul>
+              <ul>
+                <li><a href="category.html">CLASSIC</a></li>
+                <li><a href="category.html">Tops</a></li>
+                <li><a href="category.html">Bottoms</a></li>
+                <li><a href="category.html">T-Shirts</a></li>
+                <li><a href="category.html">Outerwear</a></li>
+                <li><a href="category.html">Shoes</a></li>
+              </ul>
+              <ul>
+                <li><a href="category.html">MINIMALIST</a></li>
+                <li><a href="category.html">Tops</a></li>
+                <li><a href="category.html">Bottoms</a></li>
+                <li><a href="category.html">T-Shirts</a></li>
+                <li><a href="category.html">Outerwear</a></li>
+                <li><a href="category.html">Shoes</a></li>
+              </ul>
+              <ul>
+                <li><a href="category.html">SPORTY</a></li>
+                <li><a href="category.html">Tops</a></li>
+                <li><a href="category.html">Bottoms</a></li>
+                <li><a href="category.html">T-Shirts</a></li>
+                <li><a href="category.html">Outerwear</a></li>
+                <li><a href="category.html">Shoes</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <!-- Logo -->
+        <div class="logo-container">
+          <a href="/index.html"><img src="/resources/logo.svg" alt="logo" /></a>
+        </div>
+        <!-- Right menu -->
+        <ul class="right-menu">
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+          <li tabindex="0">
+            <i class="material-icons-outlined">search</i
+            ><input type="text" class="search-box" placeholder="Search Item or Collection..." />
+          </li>
+          <li>
+            <a href="wish-list.html"><i class="material-icons-outlined">favorite_border</i></a>
+          </li>
+          <li>
+            <a href="shopping-cart.html"><i class="material-icons-outlined">shopping_bag</i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="nav-padding"></div>
+
+    <!-- About Us -->
+    <div class="margin-wrapper">
+      <div class="au-content-container">
+        <div class="au-img-container">
+          <img class="banner-img" src="/resources/aboutus-banner.jpg" alt="banner-img" />
+          <div class="au-title-container">
+            <p>About Us</p>
+          </div>
+        </div>
+
+        <div class="au-text-container">
+          <p>
+            Welcome to [NAME], nestled in New York City's vibrant fashion scene. We're dedicated to
+            providing unique, trendsetting styles for expressive individuals. Our diverse and
+            quality-driven collections cater to every taste, blending elegance with boldness.
+          </p>
+        </div>
+        <div class="au-history-section">
+          <div class="au-text-container">
+            <!-- <p>History</p> -->
+          </div>
+          <div class="au-text-container">
+            <p>2023</p>
+            <p>
+              This year marked the launch of our eco-conscious line, embracing sustainability
+              without sacrificing style. Our commitment to the environment has been woven into every
+              fabric choice, bringing forth a collection that's not just fashionable but also
+              earth-friendly.
+            </p>
+            <video controls loop src="/resources/videoaudio.mp4"></video>
+          </div>
+          <div class="au-text-container">
+            <p>2019</p>
+            <p>
+              A milestone year for [NAME] as we expanded internationally, bringing our unique New
+              York flair to the global stage. Our designs resonated worldwide, leading to the
+              opening of flagship stores in Paris, Milan, and Tokyo, each embodying our ethos of
+              chic, cosmopolitan fashion.
+            </p>
+            <div class="au-img-container">
+              <img src="/resources/aboutus2-compressed.jpg" alt="aboutus" />
+            </div>
+          </div>
+          <div class="au-text-container">
+            <p>2016</p>
+            <p>
+              The debut of our signature series, 'Urban Elegance', fused streetwear with luxury,
+              capturing the essence of modern city life. The series was an instant hit, earning
+              acclaim for its innovative use of materials and edgy designs that redefined
+              contemporary style.
+            </p>
+            <div class="au-img-container">
+              <img src="/resources/aboutus3-compressed.jpg" alt="aboutus" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <section class="left-footer">
+          <div class="footer-logo">
+            <img src="/resources/logo.svg" alt="footer-logo" />
+          </div>
+        </section>
+        <section class="middle-footer">
+          <h1>Site Map</h1>
+          <div class="sitemap-container">
+            <ul class="sitemap-left">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="category.html">Men</a></li>
+              <li><a href="category.html">Women</a></li>
+              <li><a href="category.html">Kid</a></li>
+            </ul>
+            <ul class="sitemap-right">
+              <li><a href="wish-list.html">Wishlist</a></li>
+              <li><a href="shopping-cart.html">Shopping Cart</a></li>
+              <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="right-footer">
+          <h1>Get in touch</h1>
+          <div class="social-media-container">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <div class="subscribe-container">
+            <input type="email" placeholder="E-mail..." />
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
