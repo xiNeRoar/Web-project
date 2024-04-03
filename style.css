@@ -1729,12 +1729,12 @@ footer > .footer-content > .right-footer {
 .form-item > textarea:focus-within {
   outline: none;
   border: none;
-  caret-color: white;
+  caret-color: black;
 }
 
 .form-item > input:-webkit-autofill {
   -webkit-background-clip: text;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: black;
 }
 
 .form-item:nth-of-type(1),
