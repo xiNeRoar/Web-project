@@ -1766,7 +1766,7 @@ input[type="radio"] {
 .cu-card-container textarea {
   border: none;
   background: none;
-  color: white;
+  color: black;
 }
 
 .form-item {
